@@ -4,10 +4,10 @@ import BlurText from "./BlurText";
 
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden h-[100svh] md:h-[800px] lg:h-[1000px] bg-black">
+    <section className="relative overflow-hidden h-[100dvh] md:h-[800px] lg:h-[1000px] bg-black">
       {/* Background video */}
       <video
-        className="absolute inset-0 w-full h-full object-cover z-0"
+        className="absolute inset-0 w-full h-full object-cover object-top md:object-center z-0"
         src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260307_083826_e938b29f-a43a-41ec-a153-3d4730578ab8.mp4"
         autoPlay
         loop

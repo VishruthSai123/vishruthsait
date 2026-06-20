@@ -1,3 +1,5 @@
+import { motion } from "motion/react";
+
 const FeaturesChess = () => {
   return (
     <section id="work" className="py-16 md:py-24 px-4 md:px-16 lg:px-24 bg-black">
@@ -7,7 +9,13 @@ const FeaturesChess = () => {
       </div>
 
       {/* Row 1 — SendRight AI */}
-      <div className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 mb-16 md:mb-24 max-w-6xl mx-auto">
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 max-w-6xl mx-auto"
+      >
         <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
           <h3 className="text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
             SendRight AI
@@ -35,10 +43,114 @@ const FeaturesChess = () => {
             />
           </div>
         </div>
-      </div>
+      </motion.div>
 
-      {/* Row 2 — Open House */}
-      <div className="flex flex-col lg:flex-row-reverse items-center gap-8 md:gap-12 mb-16 md:mb-24 max-w-6xl mx-auto">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.8 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true, margin: "-50px" }}
+        transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
+        className="w-16 md:w-32 border-t-2 border-dotted border-white/20 mx-auto my-10 md:my-24"
+      />
+
+      {/* Row 2 — Segment */}
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="flex flex-col lg:flex-row-reverse items-center gap-8 md:gap-12 max-w-6xl mx-auto"
+      >
+        <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
+          <h3 className="text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
+            Segment
+          </h3>
+          <p className="text-foreground/60 font-body font-light text-xs md:text-sm max-w-md mx-auto lg:mx-0">
+            Segment.ai is an AI-powered platform that helps users discover, compare, and find the best products through personalized recommendations.
+          </p>
+          <a
+            href="https://segment-olive.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block liquid-glass-strong rounded-full px-5 py-2.5 text-xs md:text-sm font-medium font-body text-foreground hover:bg-white/5 transition-colors"
+          >
+            View Live Demo
+          </a>
+        </div>
+        <div className="flex-1 w-full">
+          <div className="liquid-glass rounded-2xl overflow-hidden aspect-video">
+            <img
+              src="https://res.cloudinary.com/dlthejrmm/image/upload/v1781940322/WhatsApp_Image_2026-06-20_at_12.50.24_1_gid76i.jpg"
+              alt="Segment — AI-powered platform preview"
+              className="w-full h-full object-cover"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, scale: 0.8 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true, margin: "-50px" }}
+        transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
+        className="w-16 md:w-32 border-t-2 border-dotted border-white/20 mx-auto my-10 md:my-24"
+      />
+
+      {/* Row 3 — Quite */}
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 max-w-6xl mx-auto"
+      >
+        <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
+          <h3 className="text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
+            Quite
+          </h3>
+          <p className="text-foreground/60 font-body font-light text-xs md:text-sm max-w-md mx-auto lg:mx-0">
+            Quite is a modern messaging platform that enables secure real-time chats, communities, and seamless communication with a clean, user-friendly experience.
+          </p>
+          <a
+            href="https://quitechat.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block liquid-glass-strong rounded-full px-5 py-2.5 text-xs md:text-sm font-medium font-body text-foreground hover:bg-white/5 transition-colors"
+          >
+            View Live Demo
+          </a>
+        </div>
+        <div className="flex-1 w-full">
+          <div className="liquid-glass rounded-2xl overflow-hidden aspect-video">
+            <img
+              src="https://res.cloudinary.com/dlthejrmm/image/upload/v1781940312/WhatsApp_Image_2026-06-20_at_12.50.24_ilk3za.jpg"
+              alt="Quite — modern messaging platform preview"
+              className="w-full h-full object-cover"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, scale: 0.8 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true, margin: "-50px" }}
+        transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
+        className="w-16 md:w-32 border-t-2 border-dotted border-white/20 mx-auto my-10 md:my-24"
+      />
+
+      {/* Row 4 — Open House */}
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="flex flex-col lg:flex-row-reverse items-center gap-8 md:gap-12 max-w-6xl mx-auto"
+      >
         <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
           <h3 className="text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
             Open House
@@ -66,10 +178,24 @@ const FeaturesChess = () => {
             />
           </div>
         </div>
-      </div>
+      </motion.div>
 
-      {/* Row 3 — Code Eternal */}
-      <div className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 mb-16 md:mb-24 max-w-6xl mx-auto">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.8 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true, margin: "-50px" }}
+        transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
+        className="w-16 md:w-32 border-t-2 border-dotted border-white/20 mx-auto my-10 md:my-24"
+      />
+
+      {/* Row 5 — Code Eternal */}
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 max-w-6xl mx-auto"
+      >
         <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
           <h3 className="text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
             Code Eternal
@@ -97,10 +223,24 @@ const FeaturesChess = () => {
             />
           </div>
         </div>
-      </div>
+      </motion.div>
 
-      {/* Row 4 — Vibe (Coming Soon) */}
-      <div className="flex flex-col lg:flex-row-reverse items-center gap-8 md:gap-12 max-w-6xl mx-auto">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.8 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true, margin: "-50px" }}
+        transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
+        className="w-16 md:w-32 border-t-2 border-dotted border-white/20 mx-auto my-16 md:my-24"
+      />
+
+      {/* Row 6 — Vibe (Coming Soon) */}
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="flex flex-col lg:flex-row-reverse items-center gap-8 md:gap-12 max-w-6xl mx-auto"
+      >
         <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
           <h3 className="text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
             Vibe
@@ -123,7 +263,7 @@ const FeaturesChess = () => {
             />
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
