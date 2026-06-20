@@ -16,7 +16,7 @@ const FeaturesChess = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 max-w-6xl mx-auto"
       >
-        <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
+        <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left order-2 lg:order-1">
           <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
             SendRight AI
           </h3>
@@ -32,7 +32,7 @@ const FeaturesChess = () => {
             View on Play Store
           </a>
         </div>
-        <div className="flex-1 w-full">
+        <div className="flex-1 w-full order-1 lg:order-2">
           <div className="liquid-glass rounded-2xl overflow-hidden aspect-video">
             <img
               src="https://res.cloudinary.com/dlthejrmm/image/upload/v1774713439/Black_and_Silver_Modern_Delivery_Transport_Banner_Landscape_20260328_212412_0000_riuq5f.png"
@@ -61,7 +61,7 @@ const FeaturesChess = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="flex flex-col lg:flex-row-reverse items-center gap-8 md:gap-12 max-w-6xl mx-auto"
       >
-        <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
+        <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left order-2 lg:order-1">
           <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
             Segment
           </h3>
@@ -77,7 +77,7 @@ const FeaturesChess = () => {
             View Live Demo
           </a>
         </div>
-        <div className="flex-1 w-full">
+        <div className="flex-1 w-full order-1 lg:order-2">
           <div className="liquid-glass rounded-2xl overflow-hidden aspect-video">
             <img
               src="https://res.cloudinary.com/dlthejrmm/image/upload/v1781940322/WhatsApp_Image_2026-06-20_at_12.50.24_1_gid76i.jpg"
@@ -106,7 +106,7 @@ const FeaturesChess = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 max-w-6xl mx-auto"
       >
-        <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
+        <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left order-2 lg:order-1">
           <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
             Quite
           </h3>
@@ -122,7 +122,7 @@ const FeaturesChess = () => {
             View Live Demo
           </a>
         </div>
-        <div className="flex-1 w-full">
+        <div className="flex-1 w-full order-1 lg:order-2">
           <div className="liquid-glass rounded-2xl overflow-hidden aspect-video">
             <img
               src="https://res.cloudinary.com/dlthejrmm/image/upload/v1781940312/WhatsApp_Image_2026-06-20_at_12.50.24_ilk3za.jpg"
@@ -151,7 +151,7 @@ const FeaturesChess = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="flex flex-col lg:flex-row-reverse items-center gap-8 md:gap-12 max-w-6xl mx-auto"
       >
-        <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
+        <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left order-2 lg:order-1">
           <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
             Open House
           </h3>
@@ -167,7 +167,7 @@ const FeaturesChess = () => {
             View Live Demo
           </a>
         </div>
-        <div className="flex-1 w-full">
+        <div className="flex-1 w-full order-1 lg:order-2">
           <div className="liquid-glass rounded-2xl overflow-hidden aspect-video">
             <img
               src="https://res.cloudinary.com/dlthejrmm/image/upload/v1774803522/Black_and_Silver_Modern_Delivery_Transport_Banner_Landscape_20260329_215827_0000_dpbh8s.png"
@@ -196,7 +196,7 @@ const FeaturesChess = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 max-w-6xl mx-auto"
       >
-        <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
+        <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left order-2 lg:order-1">
           <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
             Code Eternal
           </h3>
@@ -212,7 +212,7 @@ const FeaturesChess = () => {
             View Live Demo
           </a>
         </div>
-        <div className="flex-1 w-full">
+        <div className="flex-1 w-full order-1 lg:order-2">
           <div className="liquid-glass rounded-2xl overflow-hidden aspect-video">
             <img
               src="https://res.cloudinary.com/dlthejrmm/image/upload/v1774803521/Black_and_Silver_Modern_Delivery_Transport_Banner_Landscape_20260329_215931_0000_jfiayk.png"
@@ -241,7 +241,7 @@ const FeaturesChess = () => {
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="flex flex-col lg:flex-row-reverse items-center gap-8 md:gap-12 max-w-6xl mx-auto"
       >
-        <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
+        <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left order-2 lg:order-1">
           <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
             Vibe
           </h3>
@@ -252,7 +252,7 @@ const FeaturesChess = () => {
             Coming Soon
           </span>
         </div>
-        <div className="flex-1 w-full">
+        <div className="flex-1 w-full order-1 lg:order-2">
           <div className="liquid-glass rounded-2xl overflow-hidden aspect-video">
             <img
               src="https://res.cloudinary.com/dlthejrmm/image/upload/v1774713439/Black_and_Silver_Modern_Delivery_Transport_Banner_Landscape_20260328_212558_0000_ieft6n.png"
