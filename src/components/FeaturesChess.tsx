@@ -17,7 +17,7 @@ const FeaturesChess = () => {
         className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 max-w-6xl mx-auto"
       >
         <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
-          <h3 className="text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
+          <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
             SendRight AI
           </h3>
           <p className="text-foreground/60 font-body font-light text-xs md:text-sm max-w-md mx-auto lg:mx-0">
@@ -62,7 +62,7 @@ const FeaturesChess = () => {
         className="flex flex-col lg:flex-row-reverse items-center gap-8 md:gap-12 max-w-6xl mx-auto"
       >
         <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
-          <h3 className="text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
+          <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
             Segment
           </h3>
           <p className="text-foreground/60 font-body font-light text-xs md:text-sm max-w-md mx-auto lg:mx-0">
@@ -107,7 +107,7 @@ const FeaturesChess = () => {
         className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 max-w-6xl mx-auto"
       >
         <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
-          <h3 className="text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
+          <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
             Quite
           </h3>
           <p className="text-foreground/60 font-body font-light text-xs md:text-sm max-w-md mx-auto lg:mx-0">
@@ -152,7 +152,7 @@ const FeaturesChess = () => {
         className="flex flex-col lg:flex-row-reverse items-center gap-8 md:gap-12 max-w-6xl mx-auto"
       >
         <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
-          <h3 className="text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
+          <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
             Open House
           </h3>
           <p className="text-foreground/60 font-body font-light text-xs md:text-sm max-w-md mx-auto lg:mx-0">
@@ -197,7 +197,7 @@ const FeaturesChess = () => {
         className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 max-w-6xl mx-auto"
       >
         <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
-          <h3 className="text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
+          <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
             Code Eternal
           </h3>
           <p className="text-foreground/60 font-body font-light text-xs md:text-sm max-w-md mx-auto lg:mx-0">
@@ -242,7 +242,7 @@ const FeaturesChess = () => {
         className="flex flex-col lg:flex-row-reverse items-center gap-8 md:gap-12 max-w-6xl mx-auto"
       >
         <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left">
-          <h3 className="text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
+          <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
             Vibe
           </h3>
           <p className="text-foreground/60 font-body font-light text-xs md:text-sm max-w-md mx-auto lg:mx-0">
