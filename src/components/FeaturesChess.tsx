@@ -53,13 +53,58 @@ const FeaturesChess = () => {
         className="w-16 md:w-32 border-t-2 border-dotted border-white/20 mx-auto my-10 md:my-24"
       />
 
-      {/* Row 2 — Segment */}
+      {/* Row 2 — Soniq */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="flex flex-col lg:flex-row-reverse items-center gap-8 md:gap-12 max-w-6xl mx-auto"
+      >
+        <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left order-2 lg:order-1">
+          <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
+            Soniq
+          </h3>
+          <p className="text-foreground/60 font-body font-light text-xs md:text-sm max-w-md mx-auto lg:mx-0">
+            Soniq is a music social platform where creators upload songs, gain followers, and compete in music battles, while listeners discover, stream, and vote for their favorite tracks.
+          </p>
+          <a
+            href="https://hearsoniq.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block liquid-glass-strong rounded-full px-5 py-2.5 text-xs md:text-sm font-medium font-body text-foreground hover:bg-white/5 transition-colors"
+          >
+            View Live Demo
+          </a>
+        </div>
+        <div className="flex-1 w-full order-1 lg:order-2">
+          <div className="liquid-glass rounded-2xl overflow-hidden aspect-video">
+            <img
+              src="https://res.cloudinary.com/dlthejrmm/image/upload/v1782204204/Black_and_Silver_Modern_Delivery_Transport_Banner_Landscape_iqkcog.png"
+              alt="Soniq — music social platform preview"
+              className="w-full h-full object-cover"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, scale: 0.8 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true, margin: "-50px" }}
+        transition={{ duration: 0.5, delay: 0.2, ease: "easeOut" }}
+        className="w-16 md:w-32 border-t-2 border-dotted border-white/20 mx-auto my-10 md:my-24"
+      />
+
+      {/* Row 3 — Segment */}
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 max-w-6xl mx-auto"
       >
         <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left order-2 lg:order-1">
           <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
@@ -98,13 +143,13 @@ const FeaturesChess = () => {
         className="w-16 md:w-32 border-t-2 border-dotted border-white/20 mx-auto my-10 md:my-24"
       />
 
-      {/* Row 3 — Quite */}
+      {/* Row 4 — Quite */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 max-w-6xl mx-auto"
+        className="flex flex-col lg:flex-row-reverse items-center gap-8 md:gap-12 max-w-6xl mx-auto"
       >
         <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left order-2 lg:order-1">
           <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
@@ -143,13 +188,13 @@ const FeaturesChess = () => {
         className="w-16 md:w-32 border-t-2 border-dotted border-white/20 mx-auto my-10 md:my-24"
       />
 
-      {/* Row 4 — Open House */}
+      {/* Row 5 — Open House */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="flex flex-col lg:flex-row-reverse items-center gap-8 md:gap-12 max-w-6xl mx-auto"
+        className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 max-w-6xl mx-auto"
       >
         <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left order-2 lg:order-1">
           <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
@@ -188,13 +233,13 @@ const FeaturesChess = () => {
         className="w-16 md:w-32 border-t-2 border-dotted border-white/20 mx-auto my-10 md:my-24"
       />
 
-      {/* Row 5 — Code Eternal */}
+      {/* Row 6 — Code Eternal */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 max-w-6xl mx-auto"
+        className="flex flex-col lg:flex-row-reverse items-center gap-8 md:gap-12 max-w-6xl mx-auto"
       >
         <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left order-2 lg:order-1">
           <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
@@ -233,13 +278,13 @@ const FeaturesChess = () => {
         className="w-16 md:w-32 border-t-2 border-dotted border-white/20 mx-auto my-16 md:my-24"
       />
 
-      {/* Row 6 — Vibe (Coming Soon) */}
+      {/* Row 7 — Vibe (Coming Soon) */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className="flex flex-col lg:flex-row-reverse items-center gap-8 md:gap-12 max-w-6xl mx-auto"
+        className="flex flex-col lg:flex-row items-center gap-8 md:gap-12 max-w-6xl mx-auto"
       >
         <div className="flex-1 space-y-4 md:space-y-6 text-center lg:text-left order-2 lg:order-1">
           <h3 className="hidden md:block text-xl md:text-3xl font-heading italic text-foreground tracking-tight">
